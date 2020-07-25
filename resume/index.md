@@ -323,23 +323,10 @@ Thesis: Application supporting work of experts using the polygraph (Hardware & S
 
 ## Certifications
 
-[Google Cloud Certified Professional Cloud Architect](https://bit.ly/2xpKN6a)
-
-![alt text](../img/gcp_arch_logo.png "GCP architect")
-
-
-[Certified Kubernetes Application Developer (CKAD)](../img/cisco.pdf)
-
-![alt text](../img/ckad_logo.png "GCP architect")
-
-[CCNA Routing and switching - Scaling Networks](https://bit.ly/34vQsnn)
-
-![alt text](../img/ccna.jpg "GCP architect")
-
-
-[HashiCorp Certified: Terraform Associate](TODO)
-
-![alt text](../img/tf.png "GCP architect")
+|                                                                                                                       |                                                                                                    |
+| --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| [![alt text](../img/gcp_arch_logo.png "Google Cloud Certified Professional Cloud Architect")](https://bit.ly/2xpKN6a) | [![alt text](../img/ckad_logo.png "Certified Kubernetes Application Developer")](../img/cisco.pdf) |
+| [![alt text](../img/ccna.jpg "CCNA Routing and switching - Scaling Networks")](https://bit.ly/34vQsnn)                | [![alt text](../img/tf.png "HashiCorp Certified: Terraform Associate")](TODO)                      |
 
 ---
 

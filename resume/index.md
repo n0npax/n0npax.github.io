@@ -27,80 +27,81 @@ I’m not interested in roles like:
 
 ### System Engineering
 
-| scale | technology | details|
-|---|---|---|
-| ⬛️⬛️⬛️⬛️⬛️ Linux | ubuntu, systemd, packaging, etc, software development, ... |
-| ⬛️⬛️⬛️⬛️⬜️  | System optimalization | atop, strace, dstat, iotop, sar, ss, understanding of few files in /proc and /dev |
-| ⬛️⬛️⬛️⬜️⬜️  | Unix | FreeBSD, pfSense, ports |
-| ⬛️⬛️⬜️⬜️⬜️  | Network troubleshooting | ss, ip r, tcpflow, tcpdump, overall average understanding of network |
+| scale                | technology              | details                                                                           |
+| -------------------- | ----------------------- | --------------------------------------------------------------------------------- |
+| ⬛️⬛️⬛️⬛️⬛️ | Linux                   | ubuntu, systemd, packaging, etc, software development, ...                        |
+| ⬛️⬛️⬛️⬛️⬜️ | System optimalization   | atop, strace, dstat, iotop, sar, ss, understanding of few files in /proc and /dev |
+| ⬛️⬛️⬛️⬜️⬜️ | Unix                    | FreeBSD, pfSense, ports                                                           |
+| ⬛️⬛️⬜️⬜️⬜️ | Network troubleshooting | ss, ip r, tcpflow, tcpdump, overall average understanding of network              |
+
 ### Cloud
 
-| scale | technology | details|
-|---|---|---|
-| ⬛️⬛️⬛️⬛️⬛️ |cloud | ceph |
-| ⬛️⬛️⬛️⬛️⬛️ |Containers | Docker, docker-compose |
-| ⬛️⬛️⬛️⬛️⬛️ |gcp | gcs, gcr, gke, functions, bigtable, cloudSQL, iam, pubsub, compute, appengine, ... |
-| ⬛️⬛️⬛️⬛️⬛️ |k8s | manifests, helm, opa, rbac, spinnaker, network policies, ... |
-| ⬛️⬛️⬛️⬛️⬜️  | aws | s3, ec2, ecs, lambda, dynamodb, sns, iam, beanstalk, cloudwatch, ... |
-| ⬛️⬛️⬛️⬜️⬜️  | Service Mesh | istio |
-| ⬛️⬛️⬛️⬜️⬜️  | cloud | openstack, vmware, marathon |
-| ⬛️⬛️⬛️⬜️⬜️  | Network | routing, switching |
-| ⬛️⬛️⬛️⬜️⬜️  | Containers | kaniko |
-| ⬛️⬛️⬜️⬜️⬜️  | Containers | systemd-nspawn |
-| ⬛️⬛️⬜️⬜️⬜️  | azure | event mesh, ad, blob, webapp, ingestion |
+| scale                | technology   | details                                                                            |
+| -------------------- | ------------ | ---------------------------------------------------------------------------------- |
+| ⬛️⬛️⬛️⬛️⬛️ | cloud        | ceph                                                                               |
+| ⬛️⬛️⬛️⬛️⬛️ | Containers   | Docker, docker-compose                                                             |
+| ⬛️⬛️⬛️⬛️⬛️ | gcp          | gcs, gcr, gke, functions, bigtable, cloudSQL, iam, pubsub, compute, appengine, ... |
+| ⬛️⬛️⬛️⬛️⬛️ | k8s          | manifests, helm, opa, rbac, spinnaker, network policies, ...                       |
+| ⬛️⬛️⬛️⬛️⬜️ | aws          | s3, ec2, ecs, lambda, dynamodb, sns, iam, beanstalk, cloudwatch, ...               |
+| ⬛️⬛️⬛️⬜️⬜️ | Service Mesh | istio                                                                              |
+| ⬛️⬛️⬛️⬜️⬜️ | cloud        | openstack, vmware, marathon                                                        |
+| ⬛️⬛️⬛️⬜️⬜️ | Network      | routing, switching                                                                 |
+| ⬛️⬛️⬛️⬜️⬜️ | Containers   | kaniko                                                                             |
+| ⬛️⬛️⬜️⬜️⬜️ | Containers   | systemd-nspawn                                                                     |
+| ⬛️⬛️⬜️⬜️⬜️ | azure        | event mesh, ad, blob, webapp, ingestion                                            |
 
 ### Programming
 
-| scale | technology | details|
-|---|---|---|
-| ⬛️⬛️⬛️⬛️⬛️ | python | pep8, pytest, flask, sqlalchemy, paramiko, pdb, packaging, celery, virtualenv |
-| ⬛️⬛️⬛️⬛️⬛️ | Orchestrization | Puppet, Ansible |
-| ⬛️⬛️⬛️⬛️⬛️ | IaC | Terraform |
-| ⬛️⬛️⬛️⬛️⬜️  | Scripting | Bash, sh, spellcheck |
-| ⬛️⬛️⬛️⬛️⬜️  | api | graphql, rest |
-| ⬛️⬛️⬛️⬜️⬜️  | api | grpc |
-| ⬛️⬛️⬛️⬜️⬜️  | Go | gin, kingpin, chi, testify, minikube(merges) |
-| ⬛️⬛️⬛️⬜️⬜️  | Scripting | ruby, perl |
-| ⬛️⬛️⬜️⬜️⬜️  | Lambda | Serverless framework |
-| ⬛️⬛️⬜️⬜️⬜️  | Orchestrization | Salt |
-| ⬛️⬛️⬜️⬜️⬜️  | IaC | Cloud Formation |
-| ⬛️⬛️⬜️⬜️⬜️  | Rust | cargo, redox(merges) |
-| ⬛️⬛️⬜️⬜️⬜️  | JS | k6 |
+| scale                | technology      | details                                                                       |
+| -------------------- | --------------- | ----------------------------------------------------------------------------- |
+| ⬛️⬛️⬛️⬛️⬛️ | python          | pep8, pytest, flask, sqlalchemy, paramiko, pdb, packaging, celery, virtualenv |
+| ⬛️⬛️⬛️⬛️⬛️ | Orchestrization | Puppet, Ansible                                                               |
+| ⬛️⬛️⬛️⬛️⬛️ | IaC             | Terraform                                                                     |
+| ⬛️⬛️⬛️⬛️⬜️ | Scripting       | Bash, sh, spellcheck                                                          |
+| ⬛️⬛️⬛️⬛️⬜️ | api             | graphql, rest                                                                 |
+| ⬛️⬛️⬛️⬜️⬜️ | api             | grpc                                                                          |
+| ⬛️⬛️⬛️⬜️⬜️ | Go              | gin, kingpin, chi, testify, minikube(merges)                                  |
+| ⬛️⬛️⬛️⬜️⬜️ | Scripting       | ruby, perl                                                                    |
+| ⬛️⬛️⬜️⬜️⬜️ | Lambda          | Serverless framework                                                          |
+| ⬛️⬛️⬜️⬜️⬜️ | Orchestrization | Salt                                                                          |
+| ⬛️⬛️⬜️⬜️⬜️ | IaC             | Cloud Formation                                                               |
+| ⬛️⬛️⬜️⬜️⬜️ | Rust            | cargo, redox(merges)                                                          |
+| ⬛️⬛️⬜️⬜️⬜️ | JS              | k6                                                                            |
 
 
 ### SRE
 
-| scale | technology | details|
-|---|---|---|
-| ⬛️⬛️⬛️⬛️⬛️ monitoring | Icinga |
-| ⬛️⬛️⬛️⬛️⬜️  | metrics | influxDB, telegraf, grafana, prometheus |
-| ⬛️⬛️⬛️⬛️⬜️  | All in one | New Relic, stackdriver |
-| ⬛️⬛️⬛️⬜️⬜️  | Logs | ELK, awslogs, graylog, filebeat, munin |
+| scale                           | technology | details                                 |
+| ------------------------------- | ---------- | --------------------------------------- |
+| ⬛️⬛️⬛️⬛️⬛️ monitoring | Icinga     |                                         |
+| ⬛️⬛️⬛️⬛️⬜️            | metrics    | influxDB, telegraf, grafana, prometheus |
+| ⬛️⬛️⬛️⬛️⬜️            | All in one | New Relic, stackdriver                  |
+| ⬛️⬛️⬛️⬜️⬜️            | Logs       | ELK, awslogs, graylog, filebeat, munin  |
 
 ### CI/CD
 
-| scale | technology | details|
-|---|---|---|
-| ⬛️⬛️⬛️⬛️⬜️  | CI | gitlab, cloudbuild |
-| ⬛️⬛️⬛️⬜️⬜️  | CD | spinnaker, jenkins, GitHub actions |
-| ⬛️⬛️⬜️⬜️⬜️  | CI | CDS, stash, jira, GHE |
+| scale                | technology | details                            |
+| -------------------- | ---------- | ---------------------------------- |
+| ⬛️⬛️⬛️⬛️⬜️ | CI         | gitlab, cloudbuild                 |
+| ⬛️⬛️⬛️⬜️⬜️ | CD         | spinnaker, jenkins, GitHub actions |
+| ⬛️⬛️⬜️⬜️⬜️ | CI         | CDS, stash, jira, GHE              |
 
 
 ### Other
 
-| scale | technology | details|
-|---|---|---|
-| ⬛️⬛️⬛️⬛️⬜️  | cvs | git |
-| ⬛️⬛️⬛️⬜️⬜️  | db | mysql, galera, postgres |
-| ⬛️⬛️⬛️⬜️⬜️  | www | nginx, apache2, envoy |
-| ⬛️⬛️⬛️⬜️⬜️  | lb | haproxy |
-| ⬛️⬛️⬛️⬜️⬜️  | queues | rabbitmq |
-| ⬛️⬛️⬛️⬜️⬜️  | caching | redis, varnish |
-| ⬛️⬛️⬛️⬜️⬜️  | db(nosql) | mongodb, firestore |
-| ⬛️⬛️⬛️⬜️⬜️  | markdown | readme, images, links |
-| ⬛️⬛️⬛️⬜️⬜️  | blue | firewalls, iam, least priviledges, fail2ban, common sense, ... |
-| ⬛️⬛️⬛️⬜️⬜️  | CTF | puzzles, obfuscation, rev-engineering |
-| ⬛️⬛️⬜️⬜️⬜️  | red | basic msf, sqlinjection, ddos, overall script kiddie plus level |
+| scale                | technology | details                                                         |
+| -------------------- | ---------- | --------------------------------------------------------------- |
+| ⬛️⬛️⬛️⬛️⬜️ | cvs        | git                                                             |
+| ⬛️⬛️⬛️⬜️⬜️ | db         | mysql, galera, postgres                                         |
+| ⬛️⬛️⬛️⬜️⬜️ | www        | nginx, apache2, envoy                                           |
+| ⬛️⬛️⬛️⬜️⬜️ | lb         | haproxy                                                         |
+| ⬛️⬛️⬛️⬜️⬜️ | queues     | rabbitmq                                                        |
+| ⬛️⬛️⬛️⬜️⬜️ | caching    | redis, varnish                                                  |
+| ⬛️⬛️⬛️⬜️⬜️ | db(nosql)  | mongodb, firestore                                              |
+| ⬛️⬛️⬛️⬜️⬜️ | markdown   | readme, images, links                                           |
+| ⬛️⬛️⬛️⬜️⬜️ | blue       | firewalls, iam, least priviledges, fail2ban, common sense, ...  |
+| ⬛️⬛️⬛️⬜️⬜️ | CTF        | puzzles, obfuscation, rev-engineering                           |
+| ⬛️⬛️⬜️⬜️⬜️ | red        | basic msf, sqlinjection, ddos, overall script kiddie plus level |
 
 ---
 

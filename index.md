@@ -4,7 +4,11 @@ I want to keep nice findings in single place to ensure I can easily share conten
 
 ### Shell
 
-Please checkout shell tricks [here](shell)
+Please checkout `shell` tricks [here](shell)
+
+### Python
+
+Please checkout `python` tricks [here](python)
 
 ---
 

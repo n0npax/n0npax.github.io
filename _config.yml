@@ -3,3 +3,5 @@ markdown: CommonMark
 name: Marcin Niemira
 description: Marcin Niemira
 
+
+theme: jekyll-theme-slate

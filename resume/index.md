@@ -26,6 +26,7 @@ I’m not interested in roles like:
 ## Skills
 
 ### System Engineering
+
 | scale | technology | details|
 |---|---|---|
 | ⬛️⬛️⬛️⬛️⬛️ Linux | ubuntu, systemd, packaging, etc, software development, ... |
@@ -33,6 +34,7 @@ I’m not interested in roles like:
 | ⬛️⬛️⬛️⬜️⬜️  | Unix | FreeBSD, pfSense, ports |
 | ⬛️⬛️⬜️⬜️⬜️  | Network troubleshooting | ss, ip r, tcpflow, tcpdump, overall average understanding of network |
 ### Cloud
+
 | scale | technology | details|
 |---|---|---|
 | ⬛️⬛️⬛️⬛️⬛️ |cloud | ceph |
@@ -48,6 +50,7 @@ I’m not interested in roles like:
 | ⬛️⬛️⬜️⬜️⬜️  | azure | event mesh, ad, blob, webapp, ingestion |
 
 ### Programming
+
 | scale | technology | details|
 |---|---|---|
 | ⬛️⬛️⬛️⬛️⬛️ | python | pep8, pytest, flask, sqlalchemy, paramiko, pdb, packaging, celery, virtualenv |
@@ -66,6 +69,7 @@ I’m not interested in roles like:
 
 
 ### SRE
+
 | scale | technology | details|
 |---|---|---|
 | ⬛️⬛️⬛️⬛️⬛️ monitoring | Icinga |
@@ -74,6 +78,7 @@ I’m not interested in roles like:
 | ⬛️⬛️⬛️⬜️⬜️  | Logs | ELK, awslogs, graylog, filebeat, munin |
 
 ### CI/CD
+
 | scale | technology | details|
 |---|---|---|
 | ⬛️⬛️⬛️⬛️⬜️  | CI | gitlab, cloudbuild |
@@ -82,6 +87,7 @@ I’m not interested in roles like:
 
 
 ### Other
+
 | scale | technology | details|
 |---|---|---|
 | ⬛️⬛️⬛️⬛️⬜️  | cvs | git |
@@ -318,24 +324,20 @@ Thesis: Application supporting work of experts using the polygraph (Hardware & S
 
 [Google Cloud Certified Professional Cloud Architect](https://bit.ly/2xpKN6a)
 
-Inline-style: 
 ![alt text](../img/gcp_arch_logo.png "GCP architect")
 
 
 [Certified Kubernetes Application Developer (CKAD)](../img/cisco.pdf)
 
-Inline-style: 
 ![alt text](../img/ckad_logo.png "GCP architect")
 
 [CCNA Routing and switching - Scaling Networks](https://bit.ly/34vQsnn)
 
-Inline-style: 
 ![alt text](../img/ccna.jpg "GCP architect")
 
 
 [HashiCorp Certified: Terraform Associate](TODO)
 
-Inline-style: 
 ![alt text](../img/tf.png "GCP architect")
 
 ---

@@ -27,8 +27,8 @@ I’m not interested in roles like:
 
 ### System Engineering
 
-| scale                | technology              | details                                                                           |
-| -------------------- | ----------------------- | --------------------------------------------------------------------------------- |
+| scale | technology              | details                                                                           |
+| ----- | ----------------------- | --------------------------------------------------------------------------------- |
 | ⬛️⬛️⬛️⬛️⬛️ | Linux                   | ubuntu, systemd, packaging, etc, software development, ...                        |
 | ⬛️⬛️⬛️⬛️⬜️ | System optimalization   | atop, strace, dstat, iotop, sar, ss, understanding of few files in /proc and /dev |
 | ⬛️⬛️⬛️⬜️⬜️ | Unix                    | FreeBSD, pfSense, ports                                                           |
@@ -36,8 +36,8 @@ I’m not interested in roles like:
 
 ### Cloud
 
-| scale                | technology   | details                                                                            |
-| -------------------- | ------------ | ---------------------------------------------------------------------------------- |
+| scale | technology   | details                                                                            |
+| ----- | ------------ | ---------------------------------------------------------------------------------- |
 | ⬛️⬛️⬛️⬛️⬛️ | cloud        | ceph                                                                               |
 | ⬛️⬛️⬛️⬛️⬛️ | Containers   | Docker, docker-compose                                                             |
 | ⬛️⬛️⬛️⬛️⬛️ | gcp          | gcs, gcr, gke, functions, bigtable, cloudSQL, iam, pubsub, compute, appengine, ... |
@@ -52,8 +52,8 @@ I’m not interested in roles like:
 
 ### Programming
 
-| scale                | technology      | details                                                                       |
-| -------------------- | --------------- | ----------------------------------------------------------------------------- |
+| scale | technology      | details                                                                       |
+| ----- | --------------- | ----------------------------------------------------------------------------- |
 | ⬛️⬛️⬛️⬛️⬛️ | python          | pep8, pytest, flask, sqlalchemy, paramiko, pdb, packaging, celery, virtualenv |
 | ⬛️⬛️⬛️⬛️⬛️ | Orchestrization | Puppet, Ansible                                                               |
 | ⬛️⬛️⬛️⬛️⬛️ | IaC             | Terraform                                                                     |
@@ -71,17 +71,17 @@ I’m not interested in roles like:
 
 ### SRE
 
-| scale                           | technology | details                                 |
-| ------------------------------- | ---------- | --------------------------------------- |
-| ⬛️⬛️⬛️⬛️⬛️ monitoring | Icinga     |                                         |
-| ⬛️⬛️⬛️⬛️⬜️            | metrics    | influxDB, telegraf, grafana, prometheus |
-| ⬛️⬛️⬛️⬛️⬜️            | All in one | New Relic, stackdriver                  |
-| ⬛️⬛️⬛️⬜️⬜️            | Logs       | ELK, awslogs, graylog, filebeat, munin  |
+| scale | technology | details                                 |
+| ----- | ---------- | --------------------------------------- |
+| ⬛️⬛️⬛️⬛️⬛️ | monitoring | Icinga                                  |  |
+| ⬛️⬛️⬛️⬛️⬜️ | metrics    | influxDB, telegraf, grafana, prometheus |
+| ⬛️⬛️⬛️⬛️⬜️ | All in one | New Relic, stackdriver                  |
+| ⬛️⬛️⬛️⬜️⬜️ | Logs       | ELK, awslogs, graylog, filebeat, munin  |
 
 ### CI/CD
 
-| scale                | technology | details                            |
-| -------------------- | ---------- | ---------------------------------- |
+| scale | technology | details                            |
+| ----- | ---------- | ---------------------------------- |
 | ⬛️⬛️⬛️⬛️⬜️ | CI         | gitlab, cloudbuild                 |
 | ⬛️⬛️⬛️⬜️⬜️ | CD         | spinnaker, jenkins, GitHub actions |
 | ⬛️⬛️⬜️⬜️⬜️ | CI         | CDS, stash, jira, GHE              |
@@ -89,8 +89,8 @@ I’m not interested in roles like:
 
 ### Other
 
-| scale                | technology | details                                                         |
-| -------------------- | ---------- | --------------------------------------------------------------- |
+| scale | technology | details                                                         |
+| ----- | ---------- | --------------------------------------------------------------- |
 | ⬛️⬛️⬛️⬛️⬜️ | cvs        | git                                                             |
 | ⬛️⬛️⬛️⬜️⬜️ | db         | mysql, galera, postgres                                         |
 | ⬛️⬛️⬛️⬜️⬜️ | www        | nginx, apache2, envoy                                           |
@@ -326,7 +326,7 @@ Thesis: Application supporting work of experts using the polygraph (Hardware & S
 |                                                                                                                       |                                                                                                    |
 | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | [![alt text](../img/gcp_arch_logo.png "Google Cloud Certified Professional Cloud Architect")](https://bit.ly/2xpKN6a) | [![alt text](../img/ckad_logo.png "Certified Kubernetes Application Developer")](../img/cisco.pdf) |
-| [![alt text](../img/ccna.jpg "CCNA Routing and switching - Scaling Networks")](https://bit.ly/34vQsnn)                | [![alt text](../img/tf.png "HashiCorp Certified: Terraform Associate")](TODO)                      |
+| [![alt text](../img/ccna.jpg "CCNA Routing and switching - Scaling Networks")](https://bit.ly/34vQsnn)                | [![alt text](../img/tf.png "HashiCorp Certified: Terraform Associate")](https://www.youracclaim.com/badges/89b792bf-a750-4f30-b411-f93826e74d63/public_url)                      |
 
 ---
 

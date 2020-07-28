@@ -14,7 +14,7 @@ Please checkout `python` tricks [here](python)
 
 ### Linux
 
-Please checkout `linux` tricks [here](Linux)
+Please checkout `linux` tricks [here](linux)
 
 ---
 

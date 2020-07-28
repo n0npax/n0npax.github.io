@@ -10,6 +10,10 @@ Please checkout `shell` tricks [here](shell)
 
 Please checkout `python` tricks [here](python)
 
+### Linux
+
+Please checkout `Linux` tricks [here](Linux)
+
 ---
 
 Are you looking for someone who can realize your project? Please check my [resume](resume)

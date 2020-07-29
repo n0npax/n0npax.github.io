@@ -16,6 +16,10 @@ Please checkout `python` tricks [here](python)
 
 Please checkout `linux` tricks [here](linux)
 
+### Architecture
+
+[Checklist for production](archirecture/production/readiness)
+
 ---
 
 ### Hands for work

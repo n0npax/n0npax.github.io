@@ -1,8 +1,8 @@
 # Readiness
 
-Such is live as Aussies says. Quite often we need to explain to managers and engineer that fact app is working on someones local machine or even in docker container doesn't mean it's production ready.
+Sometime you are making a money by a game where someone is trying to grow berries. If there is an outage for 48h you gonna just loose some profit. Nobody dies, nobody gonna sue you. If you are working on critical systems, you may need to pay a big fine in case of an outage. Usually delivering stable software later is worth more than bringing unstable piece of sh... earlier. We all remember when AWS in norh America was don't. Don't we?
 
-Sometime you are making a money by a game where someone is trying to grow berries. If there is an outage for 48h you gonna just loose some profit. Noone dies, noone gonna sue you. If you are working on critical systems, you may need to pay a big fine in case of an outage. Usually delivering stable software later is worth more than bringing unstable piece of sh... earlier. We all remember when AWS in norh America was don't. Don't we?
+Such is live as Aussies says. Quite often we need to explain to managers and engineer that fact app is working on someones local machine or even in docker container doesn't mean it's production ready. Once you need to do this, you also need to provide full list of what you are expecting.
 
 ## What to check, what to copy/paste to company intranet
 
@@ -99,23 +99,38 @@ Sometime you are making a money by a game where someone is trying to grow berrie
     * If issue is not acknowledged for some timeperiod, send notification to next persion in list
   * There is hard requirement to run-book with information who to notify when, as an engineer may not be aware who exactly owns service discovery component in company.
   * High alerts are send only is oprtator can perform any action.
-  * Alert should contain link to documentation or at least uniq ID. At 3 AM in night it's better to check instruction for Issue `foo-07` than performing full analyze.
+  * Alert should contain link to documentation or at least uniq ID. At `3 AM` in night it's better to check instruction for handling issue `borewicz-07` instead of performing full analyze.
 * There are at least few kinds of checks in production environemnt:
-  * syntetics (can I click on my website)
+  * syntetics (can I click on my website. JS can be broken once backend is up)
   * api calls (is response as expected)
-  * metrics based (in example percentage of errors, traffic size)
+  * metrics based (Percentage of errors, load size)
   * logs based (regexp on logs)
   * healthz endpoints are fluctuating.
-* There are dasboards to see metrics for last few weeks.
-* logs are useful and descriptive
+    * If single replica encouraged an issue and was recreated it doesn't mean you need to raise an alert. Details were already logged.
+* Healthcheck is must have.
+  * they should have 3 levels:
+    * OK
+    * WARN (do not eject or recreate)
+    * ERROR
+  * Except error code, response body should contain usefull data. In example
+  ```
+    status: WARN
+    code: 300
+    downsteam:
+        critical:
+            postgres: ok
+        not_critical:
+            minio: ok
+            redis: down
+    ```
+* There are dasboards and engineers can see metrics for last few weeks.
+    * All key metrics are known
+    * Product/Customer releated metrics are also known and stored  
+* Logs are useful and descriptive.
+    * Logs can be corelated  
 * Traffic in your application to be aware of upcoming issues.
 
 ### Before armagedon starts
 
 * Scenarios have been identified. You have at leas an idea what can be done.
 * Update procedures and run-book frequently. You can ask what was wrong with run-book on retro meeting and fix it/make tasks.
-
-
-
-
-

@@ -18,7 +18,8 @@ Please checkout `linux` tricks [here](linux)
 
 ### Architecture
 
-[Checklist for production](archirecture/production/readiness)
+* [day0 - 1st discussion](archirecture/day0/1st-discussion)
+* [Checklist for production](archirecture/production/readiness)
 
 ---
 

@@ -4,7 +4,7 @@ Sometime you are making a money by a game where someone is trying to grow berrie
 
 Such is live as Aussies says. Quite often we need to explain to managers and engineer that fact app is working on someones local machine or even in docker container doesn't mean it's production ready. Once you need to do this, you also need to provide full list of what you are expecting.
 
-## What to check, what to copy/paste to company intranet
+## What to check, what to copy/paste to your intranet
 
 ### Before first line of code
 

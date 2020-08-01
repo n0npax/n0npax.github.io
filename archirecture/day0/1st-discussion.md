@@ -1,6 +1,8 @@
 # Before making any big decisions let's consider given topics:
 
-Let's check and mark every single point here. Some characteristics may not apply, as stateless application may not need to backup any data. In this case answer can be `N/A`.
+Let's check and mark every single point here. Some characteristics may not apply, as stateless application may not need to backup any data. In this case answer can be `N/A`. Some of features are critical, once other are not, but all of them should be considered and kept as part of design.
+
+
 
 | characteristic | comments | answer|
 |---|---|---| 

@@ -2,24 +2,37 @@
 
 Sometime you are making a money by a game where someone is trying to grow berries. If there is an outage for 48h you gonna just loose some profit. Nobody dies, nobody gonna sue you. If you are working on critical systems, you may need to pay a big fine in case of an outage. Usually delivering stable software later is worth more than bringing unstable piece of sh... earlier. We all remember when AWS in north America was don't. Don't we?
 
-Such is live as Aussies says. Quite often we need to explain to managers and engineer that fact app is working on someones local machine or even in docker container doesn't mean it's production ready. Once you need to do this, you also need to provide full list of what you are expecting.
+> Such is live
+
+Ned Kelly
+
+Quite often we need to explain to managers and even engineers that fact app is working on someones local machine or even in docker container doesn't mean it's production ready. Once you need to do this, you also need to provide full list of what you are expecting.
 
 ## What to check, what to copy/paste to your intranet
 
-### Before first line of code
+### Before discussing what readiness means for a system, lets chat if all critical decisions were done.
 
-* Think about a capacity. How many customers do you expect?
-* Think what you need. Avoid overcomplicated solutions. If something can be easy, make it easy.
-* Will dependency scale up with your app? Will Service `bar` used by your component scale up if required?
-* Will your app scale up with customers? What if your application will succeed? 
+#### Starting project
+
 * Do you understand traffic patterns?
   * Did you pick right interface? Graphql, grpc, rest?
 * Which programming language you need want to use and why?
-  * Remember C/Go is faster in runtime, but development process in kotlin/python is faster.
-* Your system has no single point of failure. Always scale & distribute. Use at least `LB`. Live time of a single `HDD` in DC is around 3year. How old is one used by your node?
+  * C/Go is faster in runtime, but development process in kotlin/python is faster.
+* Think what you need. Avoid overcomplicated solutions. If something can be easy, make it easy.
+
+#### Any project
+
+* Think about a capacity. How many customers do you expect? Are those data up to date?
+* Will dependency scale up with your app? Will Service `bar` used by your component scale up if required?
+* Will your app scale up with customers? What if your application will succeed? 
+* Your system has no single point of failure. Always scale & distribute. Use at least `LB`.
+  * Live time of a single `HDD` in DC is around 3year. How old is one used by your node?
 * You discussed with team the domain boundaries
-* Everyone in team understands system overview
+* Everyone in team understands system overview and is able to debug
 * Everyone understands system is making money when it is working.
+  * This is critical, as delivering unstable functionality may impact income
+
+## What to check when talking about readiness?
 
 ### Application
 
@@ -65,7 +78,7 @@ Such is live as Aussies says. Quite often we need to explain to managers and eng
   * If you can, consider having `production-mirror` to have a mirror to test hot-fix on mirror before changing production.
 * All dependencies are known and stored in single place.
 
-### Environemnt
+### Environment
 
 * Consider service discovery. It's overkill for startup, but must have for mid-size companies.
 * There are shared solutions you can utilize. in example:

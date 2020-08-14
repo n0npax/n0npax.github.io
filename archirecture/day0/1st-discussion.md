@@ -1,6 +1,6 @@
 # Before making any big decisions let's consider given topics:
 
-Let's check and mark every single point here. Some characteristics may not apply, as stateless application may not need to backup any data. In this case answer can be `N/A`. Some of features are critical, once other are not, but all of them should be considered and kept as part of design.
+Let's check and mark every single point here. Some characteristics may not apply, as stateless application may not need to backup any data. In this case answer can be `N/A`. Some of features are critical, once other are not, but all of them should be considered and kept as part of design. The priority always comes from problem domain. You cannot satisfy every characteristic, but there should be an information what was prioritized and why. Final list should be short whenever possible.
 
 
 
@@ -10,7 +10,7 @@ Let's check and mark every single point here. Some characteristics may not apply
 | Learnability  | Engineers are not cheap. How long will it take to learn systems and create mental model for new-hire? |
 | Agility   | How hard it will be to change scope of work ||
 | Testability | How can we proof system works as expected, How can we proof `e2e` is checking proper domains |
-| Elasticity | | |
+| Elasticity | Will traffic be on similar level, or spikes and drops are expected?| |
 | Deployability |Will deployment process reproducible and easy | |
 | Development lifecycle | Is process of building new puzzles known and structured? ||
 | Performance | Do you care about performance? What is traffic estimation? | |

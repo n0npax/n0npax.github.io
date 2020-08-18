@@ -378,3 +378,20 @@ Thesis: Application supporting work of experts using the polygraph (Hardware & S
   * Logic - python
   * graphs - plotly
 
+## Wall of fame
+
+---
+Mon 17 Aug 2020 23:12:25 AEST
+
+Thanks to minikube contributions
+
+In top 100 kubernetes commiters
+
+[![alt text](../img/top100commits.png "TOP 500 in kubernetes")](
+https://k8s.devstats.cncf.io/d/13/developer-activity-counts-by-repository-group?orgId=1&var-period_name=Last%20year&var-metric=commits&var-repogroup_name=All&var-country_name=All)
+
+In top 500 kubernetes contributors
+
+[![alt text](../img/top500contributions.png "TOP 500 in kubernetes")](https://k8s.devstats.cncf.io/d/13/developer-activity-counts-by-repository-group?orgId=1&var-period_name=Last%20year&var-metric=contributions&var-repogroup_name=All&var-country_name=All)
+
+---

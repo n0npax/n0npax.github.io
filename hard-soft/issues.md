@@ -2,7 +2,7 @@
 
 Reporting issues seems to be very easy task, but in real live it's not.
 
-Asking for help too often or in wrong way may cause rejection and de-prioritization. At the end of the day sympathy and respect are important factor in any company.
+Asking for help too often or in wrong way may cause rejection and de-prioritization. At the end of the day friendship and respect are important factor in any company.
 
 ## Why reporting issue is hard
 
@@ -133,6 +133,6 @@ If you application is down, is there a need to notify whole technical staff? Usu
 Small number of requests and accurate descriptions causes people are more helpful.
 Once your previous requests were descriptive and shown you tried to solve issue, people will just give you extra points.
 
-Once there is another request raised by a guy who is not reading the logs and asking someone to find an issue for him, he will be prioritized. Once this kind of request arrives people may just decide to get lunch or continue with task. Even if issue is important sympathy and irritation are important factors. Even if management will provide other directions, humans are humans.
+Once there is another request raised by a guy who is not reading the logs and asking someone to find an issue for him, he will be prioritized. Once this kind of request arrives people may just decide to get lunch or continue with task. Even if issue is important friendship and irritation are important factors. Even if management will provide other directions, humans are humans.
 
 Don't shout on communicators(`@here`) unless you really want to notify everyone.

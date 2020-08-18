@@ -21,6 +21,10 @@ Please checkout `linux` tricks [here](linux)
 * [day0 - 1st discussion](archirecture/day0/1st-discussion)
 * [Checklist for production](archirecture/production/readiness)
 
+### hard soft skills
+
+* [reporting an issue](hard-soft/issues.md)
+
 ---
 
 ### Hands for work

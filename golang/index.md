@@ -7,9 +7,9 @@ Let's consider function `foo`
 ```
 func foo(bar ...string) int {
     myVal := 0
-	if len(bar) > 0 {
-		myVal = bar[0]
-	}
+    if len(bar) > 0 {
+        myVal = bar[0]
+    }
     return myVal
 }
 ```

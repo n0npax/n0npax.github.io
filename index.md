@@ -6,15 +6,19 @@ This page was created late July 2020, so more content will appear with the time 
 
 ### Shell
 
-Please checkout `shell` tricks [here](shell)
+Please check `shell` tricks [here](shell)
 
 ### Python
 
-Please checkout `python` tricks [here](python)
+Please check `python` tricks [here](python)
+
+### Golang
+
+Please check `golang` tricks [here](golang)
 
 ### Linux
 
-Please checkout `linux` tricks [here](linux)
+Please check `linux` tricks [here](linux)
 
 ### Architecture
 

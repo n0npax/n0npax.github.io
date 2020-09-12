@@ -32,7 +32,7 @@ I’m not interested in roles like:
 | ⬛️⬛️⬛️⬛️⬛️ | Linux                   | ubuntu, systemd, packaging, etc, software development, ...                        |
 | ⬛️⬛️⬛️⬛️⬜️ | System optimalization   | atop, strace, dstat, iotop, sar, ss, understanding of few files in /proc and /dev |
 | ⬛️⬛️⬛️⬜️⬜️ | Unix                    | FreeBSD, pfSense, ports                                                           |
-| ⬛️⬛️⬜️⬜️⬜️ | Network troubleshooting | ss, ip r, tcpflow, tcpdump, overall average understanding of network              |
+| ⬛️⬛️⬜️⬜️⬜️ | Network troubleshooting | ss, ip r, tcpflow, tcpdump, overall understanding of network                      |
 
 ### Cloud
 
@@ -82,8 +82,8 @@ I’m not interested in roles like:
 
 | scale | technology | details                            |
 | ----- | ---------- | ---------------------------------- |
-| ⬛️⬛️⬛️⬛️⬜️ | CI         | gitlab, cloudbuild                 |
-| ⬛️⬛️⬛️⬜️⬜️ | CD         | spinnaker, jenkins, GitHub actions |
+| ⬛️⬛️⬛️⬛️⬜️ | CI         | gitlab, cloudbuild, GitHub actions |
+| ⬛️⬛️⬛️⬜️⬜️ | CD         | spinnaker, jenkins                 |
 | ⬛️⬛️⬜️⬜️⬜️ | CI         | CDS, stash, jira, GHE              |
 
 
@@ -117,7 +117,7 @@ Developing Platform shared by many tribes & teams. Implementing new workflows fo
 
 #### GCP/K8S
 
-* GKE (cluster,istio,namespaces,rbac,network policies) - * terraform, helm, yaml, kustomize
+* GKE (cluster,istio,namespaces,rbac,network policies) - * terraform, helm, yaml, kustomize, skaffold
 * gcr, gsr, gcs, iam, cloudbuild, cloudsql, pubsub, firebase - terraform / terragrunt
 * opa policies - rego
 * monitoring - stackdriver, jeager, kiali, prometheus, grafana

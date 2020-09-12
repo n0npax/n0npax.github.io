@@ -1,10 +1,6 @@
 # Readiness
 
-Sometime you are making a money by a game where someone is trying to grow berries. If there is an outage for 48h you gonna just loose some profit. Nobody dies, nobody gonna sue you. If you are working on critical systems, you may need to pay a big fine in case of an outage. Usually delivering stable software later is worth more than bringing unstable piece of sh... earlier. We all remember when AWS in north America was don't. Don't we?
-
-> Such is live
-
-Ned Kelly
+Sometime you are making a money by a game where someone is trying to grow berries. If there is an outage for 48h you gonna just loose some profit. Nobody dies, nobody gonna sue you. If you are working on critical systems, you may need to pay a big fine in case of an outage. Usually delivering stable software later is worth more than bringing unstable one earlier. Customers will remember failure for long time. We all remember when AWS in north America was don't. Don't we?
 
 Quite often we need to explain to managers and even engineers that fact app is working on someones local machine or even in docker container doesn't mean it's production ready. Once you need to do this, you also need to provide full list of what you are expecting.
 

@@ -7,7 +7,7 @@
 
 ## How securely store a temp secret in docker image:
  
-Check this docs: https://docs.docker.com/develop/develop-images/build_enhancements/#new-docker-build-secret-information
+Check this [docs](https://docs.docker.com/develop/develop-images/build_enhancements/#new-docker-build-secret-information)
 
 ## Multistage images
 
@@ -15,7 +15,7 @@ Why:
 1. Because you can separate logic (data preparation, dependency install and final app) in nice way.
 2. smaller final docker images (faster pull - faster recovery)
 
-How can you Use multiple stages in real live:
+How can you use multiple stages in real live:
 1. Install all deps in builder
 2. build application
 3. copy artefact to final stage
@@ -31,13 +31,13 @@ COPY --from=app-builder /app/my.whl /app/my.whl
 ...
 ```
 
-why this is useful?
+why this is good?
 
-because you can keep small final image and keep a cache for build performance. You can also build & tag only `app-builder` using cache.
+Because you can keep small final image and keep a cache for build performance. In example you can build & tag only `app-builder` using `builder` cache.
 ```
 docker build --cache-from=my-builder:latest --target app-builder -t app-builder:1.2.3
 ```
 If cached `builder:latest` is ok, it will be used, if not docker will rebuild required layers.
 
-pain point: cache has to be present. In case `my-builder:latest` is not present, docker will rebuild without trying to pull.
+Pain point: cache has to be present on node. In case `my-builder:latest` is not present, docker will rebuild without trying to pull.
 Solution: `docker pull` before docker build `--cache-from`.

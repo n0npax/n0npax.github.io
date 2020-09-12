@@ -6,7 +6,7 @@ keeping [dotfiles](https://github.com/n0npax/dotfiles) somewhere is an good prac
 
 Please check [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) which brings tones of good magic.
 
-### 
+In example:
 ```
 alias | grep '\.\.\.' | head -n4
 ...=../..

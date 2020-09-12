@@ -4,25 +4,18 @@ I want to keep nice findings in single place to ensure I can easily share conten
 
 This page was created late July 2020, so more content will appear with the time :)
 
-### Shell
+---
 
-Please check `shell` tricks [here](shell)
+### Programming
 
-### Python
+* [shell](shell)
+* [python](python)
+* [hdart](dart)
+* [golang](golang)
 
-Please check `python` tricks [here](python)
+### System engineering
 
-### Dart
-
-Please check `dart` tricks [here](dart)
-
-### Golang
-
-Please check `golang` tricks [here](golang)
-
-### Linux
-
-Please check `linux` tricks [here](linux)
+* [Linux](linux)
 
 ### Architecture
 

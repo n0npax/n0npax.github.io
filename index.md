@@ -28,6 +28,7 @@ Please check `linux` tricks [here](linux)
 ### hard soft skills
 
 * [reporting an issue](hard-soft/issues.md)
+* [graduate road map](hard-soft/graduate.md)
 
 ---
 

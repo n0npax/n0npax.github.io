@@ -6,4 +6,3 @@ Must have/must know tools
 * [kubectx](https://github.com/ahmetb/kubectx) (easy switch between clusters/contexts)
 * [kustomize](https://github.com/kubernetes-sigs/kustomize) (patch manifest)
 * [helm](https://helm.sh/) (templating)
-* 

@@ -66,3 +66,11 @@ Frontend:
 ## In case of Failure
 
 You failed because of [...]. Improve and retry. Next time it gonna be a little bit better. Live is kind of `SDLC`
+
+---
+
+PS: Ensure you like this. In `IT` you have to keep learning as industry is changing quickly. Paradigms common in 2010 are considered as not suitable anymore. 10 years has much bigger impact on `IT` than on Engine design.
+
+```bash
+$ echo Good Luck
+```

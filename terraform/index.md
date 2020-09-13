@@ -1,6 +1,6 @@
 # State management
 
-Please check this repo for full [description and code](https://github.com/n0npax/tf-foreach-vs-count)
+Please check this repo for full [description and code](https://github.com/n0npax/tf-foreach-vs-count) which shows how set, list and map behaves.
 
 ## List vs set
 
@@ -47,3 +47,5 @@ list
           "schema_version": 0,
           "attributes": {
 ```
+
+Recreating stateful resources will be less painful with set.

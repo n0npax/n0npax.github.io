@@ -381,7 +381,7 @@ Thesis: Application supporting work of experts using the polygraph (Hardware & S
 ## Wall of fame
 
 I've discovered:
-* CVE-2020-35669
+* [CVE-2020-35669](https://nvd.nist.gov/vuln/detail/CVE-2020-35669)
 
 ---
 Mon 17 Aug 2020 23:12:25 AEST

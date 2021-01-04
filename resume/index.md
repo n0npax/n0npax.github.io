@@ -61,6 +61,7 @@ I’m not interested in roles like:
 | ⬛️⬛️⬛️⬛️⬜️ | api             | graphql, rest                                                                 |
 | ⬛️⬛️⬛️⬜️⬜️ | api             | grpc                                                                          |
 | ⬛️⬛️⬛️⬜️⬜️ | Go              | gin, kingpin, chi, testify, minikube(merges)                                  |
+| ⬛️⬛️⬛️⬜️⬜️ | Dart            | flutter                                                                       |
 | ⬛️⬛️⬛️⬜️⬜️ | Scripting       | ruby, perl                                                                    |
 | ⬛️⬛️⬜️⬜️⬜️ | Lambda          | Serverless framework                                                          |
 | ⬛️⬛️⬜️⬜️⬜️ | Orchestrization | Salt                                                                          |
@@ -101,7 +102,7 @@ I’m not interested in roles like:
 | ⬛️⬛️⬛️⬜️⬜️ | markdown   | readme, images, links                                           |
 | ⬛️⬛️⬛️⬜️⬜️ | blue       | firewalls, iam, least priviledges, fail2ban, common sense, ...  |
 | ⬛️⬛️⬛️⬜️⬜️ | CTF        | puzzles, obfuscation, rev-engineering                           |
-| ⬛️⬛️⬜️⬜️⬜️ | red        | basic msf, sqlinjection, ddos, overall script kiddie plus level |
+| ⬛️⬛️⬜️⬜️⬜️ | red        | basic msf, sqlinjection, ddos, [CVE-2020-35669](https://nvd.nist.gov/vuln/detail/CVE-2020-35669) |
 
 ---
 

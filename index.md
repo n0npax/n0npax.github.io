@@ -37,6 +37,7 @@ This page was created late July 2020, so more content will appear with the time 
 
 * [reporting an issue](hard-soft/issues.md)
 * [graduate road map](hard-soft/graduate.md)
+* [here@slack](hard-soft/here.md)
 
 ---
 

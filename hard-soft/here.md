@@ -1,4 +1,4 @@
-# Using `here` or `channel`
+# Using "here" or "channel"
 
 Let's talk about slack and `@here` & `@channel` keywords.
 Those 2 words are useful and dangerous at the same time.

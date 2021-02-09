@@ -59,8 +59,8 @@ I’m not interested in roles like:
 | ⬛️⬛️⬛️⬛️⬛️ | IaC             | Terraform                                                                     |
 | ⬛️⬛️⬛️⬛️⬜️ | Scripting       | Bash, sh, spellcheck                                                          |
 | ⬛️⬛️⬛️⬛️⬜️ | api             | graphql, rest                                                                 |
+| ⬛️⬛️⬛️⬛️⬜️ | Go              | gin, kingpin, chi, testify, minikube(merges)                                  |
 | ⬛️⬛️⬛️⬜️⬜️ | api             | grpc                                                                          |
-| ⬛️⬛️⬛️⬜️⬜️ | Go              | gin, kingpin, chi, testify, minikube(merges)                                  |
 | ⬛️⬛️⬛️⬜️⬜️ | Dart            | flutter                                                                       |
 | ⬛️⬛️⬛️⬜️⬜️ | Scripting       | ruby, perl                                                                    |
 | ⬛️⬛️⬜️⬜️⬜️ | Lambda          | Serverless framework                                                          |
@@ -83,7 +83,7 @@ I’m not interested in roles like:
 
 | scale | technology | details                            |
 | ----- | ---------- | ---------------------------------- |
-| ⬛️⬛️⬛️⬛️⬜️ | CI         | gitlab, cloudbuild, GitHub actions |
+| ⬛️⬛️⬛️⬛️⬜️ | CI         | gitlab, cloudbuild, GitHub actions, harness |
 | ⬛️⬛️⬛️⬜️⬜️ | CD         | spinnaker, jenkins                 |
 | ⬛️⬛️⬜️⬜️⬜️ | CI         | CDS, stash, jira, GHE              |
 
@@ -110,9 +110,46 @@ I’m not interested in roles like:
 
 ### [ANZ](https://www.anz.com.au)
 
-Software engineer
+> Senior engineer
 
-January 2019 - Now Melbourne, Australia
+December 2020 - Now Melbourne, Australia
+
+ANZx - New banking. Redevelop systems to fit new architecture principles and customer expectations.
+
+Developing internal tools, and process for appliactions onboarding. Developing example apps as golden reference. Autogeneration of api, pipelines and documentation from CRD.
+
+#### GCP/K8S
+
+* GKE (cluster,istio,namespaces,rbac,network policies) - * terraform, yaml, kustomize, skaffold
+* gcr, gsr, gcs, iam, cloudbuild, cloudsql, pubsub, spanner, dataflow, p/s - terraform
+
+#### CI/CD
+
+* Harness
+* CloudBuild
+* github actions
+* Artifactory
+* Custom tools (pubsub based integration)
+
+#### Software Architecture
+
+* Design pipelines & deployment
+* Design tools and processes
+* Providing diagrams for infrastructure and security forums
+* Participating in high level architectural and security decisions
+
+#### Software Engineering
+
+* Applications development - go, python
+* Api - grpc, rest
+
+#### Soft Skills
+
+* Interviewing candidates for general engineering position
+
+> Software engineer
+
+January 2019 - December 2020 Melbourne, Australia
 
 Developing Platform shared by many tribes & teams. Implementing new workflows for applications deployment. Introducing GCP and K8S to the teams. Providing support and advices for appliaction architecture. Providing clean and scalable architecture for shared platform. Implementing various solution using wide toolset. Dealing with various tasks range starting with regular application development to fully declarative security improvements and infrastructure management. Being technical lead for GCP based projects.
 
@@ -173,6 +210,11 @@ Developing Platform shared by many tribes & teams. Implementing new workflows fo
 
 ### [Silverpond](https://silverpond.com.au/)
 
+> Software engineer
+
+September 2019 - January 2019 Melbourne, Australia
+
+
 Backend development and introducing DevOps culture. Providing new features for customer and bugfixes for various AI applications. Preparing pipelines and automatization for reproducibility and deployment.
 
 #### Software Engineering
@@ -214,7 +256,7 @@ Backend development and introducing DevOps culture. Providing new features for c
 
 ### [OVH](https://www.ovh.pl/)
 
-DevOps Developer
+> DevOps Developer
 
 September 2016 - September 2018 Wroclaw, Poland
 
@@ -258,7 +300,7 @@ Developing distributed system to manage IaaS solution for Ceph (Distributed stor
 ---
 ### [Nokia](https://nokiawroclaw.pl/)
 
-DevOps
+> DevOps
 
 October 2015 - August 2016
 
@@ -279,7 +321,7 @@ CI
 
 ### [Nokia](https://nokiawroclaw.pl/)
 
-Software Developer
+> Software Developer
 
 June 2014 - May 2015 Wroclaw, Poland
 

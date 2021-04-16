@@ -425,7 +425,8 @@ Thesis: Application supporting work of experts using the polygraph (Hardware & S
 
 I've discovered:
 * [CVE-2020-35669](https://nvd.nist.gov/vuln/detail/CVE-2020-35669)
-
+* [CVE-2021-31402](https://nvd.nist.gov/vuln/detail/CVE-2021-31402)
+* [bughunter with google](https://bughunter.withgoogle.com/profile/c2fcaba5-2355-4c68-a129-1dc4403ed8f2) highest position 673
 ---
 Mon 17 Aug 2020 23:12:25 AEST
 

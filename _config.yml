@@ -1,5 +1,5 @@
 ---
-markdown: CommonMark
+markdown: kramdown
 name: Marcin Niemira
 description: Marcin Niemira
 google_analytics: UA-173538813-1

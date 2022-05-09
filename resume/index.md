@@ -370,7 +370,9 @@ Thesis: Application supporting work of experts using the polygraph (Hardware & S
 | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | [![alt text](../img/gcp_arch_logo.png "Google Cloud Certified Professional Cloud Architect")](https://bit.ly/2xpKN6a) | [![alt text](../img/ckad_logo.png "Certified Kubernetes Application Developer")](../img/cisco.pdf) |
 | [![alt text](../img/ccna.jpg "CCNA Routing and switching - Scaling Networks")](https://bit.ly/34vQsnn)                | [![alt text](../img/tf.png "HashiCorp Certified: Terraform Associate")](https://www.youracclaim.com/badges/89b792bf-a750-4f30-b411-f93826e74d63/public_url)                      |
-
+| GCP data engineer | GCP security |
+| GCP Developer | GCP DevOps |
+| GCP multicloud Fellow | |
 ---
 
 ## Talks
